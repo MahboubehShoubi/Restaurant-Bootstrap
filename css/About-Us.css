@@ -1,0 +1,82 @@
+.About-Us{
+    padding: 150px 0;
+}
+
+.AboutUs-boxLeft{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+.AboutUs-textHeader{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.AboutUs-btn{
+    width: fit-content;
+    padding: 5px 35px;
+    margin-top: 10px;
+}
+
+.Box-person{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.person2{
+    animation-delay: 500ms;
+}
+
+.person3{
+    animation-delay: 800ms;
+}
+
+.person4{
+    animation-delay: 1200ms;
+}
+
+.person5{
+    animation-delay: 1500ms;
+}
+
+.person6{
+    animation-delay: 1800ms;
+}
+
+.Box-person img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.person-name{
+    font-weight: bold;
+    font-size: 15px;
+    word-spacing: 5px;
+}
+
+.person-condition{
+    font-size: 13px;
+}
+
+.AboutUs-boxRight{
+    display: flex;
+    justify-content: right;
+}
+
+.AboutUs-boxRight img{
+    width: 510px;
+    height: 550px;
+    margin-top: 150px;
+}
+
+/*------- Media -------*/
+@media (max-width: 768px) {
+    .AboutUs-boxRight img{
+        display: none;
+    }
+}

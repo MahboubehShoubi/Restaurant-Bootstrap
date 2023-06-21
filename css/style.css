@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --orenge:#FFC554;
+    --gray: #748194;
+    --yellow: #ffcc00;
+    --primary: #FFC554;
+    --border-primary: 2px solid #FFC554;
+    --background-light-blue:#F9FAFD;
+    --background-w1 : #F9FAFD ;
+    --red-icon :#FF806E;
+    --background-w2:#E8EAED;
+    --background-footer:#0B1727 ;
+}
+

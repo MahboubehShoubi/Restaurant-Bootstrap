@@ -1,0 +1,28 @@
+.home-deliver{
+    height: 40vh;
+    position: relative;
+}
+.home-deliver-img{
+    width: 300px;
+    position: absolute;
+    bottom: 0;
+}
+
+.home-deliver h6{
+    color: var(--orenge);
+}
+
+.home-deliver p{
+    color: white;
+    font-size: 1.7rem;
+}
+
+@media (max-width: 768px) {
+    .home-deliver-img{
+        display: none;
+    }
+
+    .home-deliver-text{
+        text-align: center;
+    }
+}

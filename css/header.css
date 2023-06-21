@@ -1,0 +1,124 @@
+
+/*------------- Navbar-------------------*/
+.btn-hamburger{
+    background-color: white;
+}
+
+.menu li a{
+    color: #b6b6b6;
+    font-size: 14px;
+}
+
+.mack-service{
+    text-align: center;
+    border:var(--border-primary);
+    color:var(--primary);
+    font-size: 14px;
+    border-radius: 5px;
+    width:250px;
+    padding: 6px;
+}
+.mack-service:hover{
+    background-color:var(--primary);
+    color:gray;
+}
+
+/*----------------------header----------------------*/
+.bg-header-left{
+    margin-top: -50px;
+    margin-left: -80px;
+}
+
+.img-top{
+    margin-top: -750px;
+    margin-left: 50px;
+    width: 350px;
+    height: 350px;
+}
+
+.header{
+    height: max-content;
+}
+.header-right{
+    font-family:"Times New Roman";
+}
+
+.text-header-right ,
+.text-header-main{
+    width: 70%;
+}
+
+.btnBox-left{
+    background-color:var(--primary) ;
+    padding: 8px 50px;
+    border-radius: 5px;
+    border:var(--border-primary);
+    font-size: 14px;
+    margin-right: 20px;
+}
+.btnBox-left:hover{
+    background-color:var(--primary);
+}
+
+.btnBox-right{
+    padding: 8px 50px;
+    border-radius: 5px;
+    border:var(--border-primary);
+    font-size: 14px;
+    margin-right: 20px;
+    background-color: white;
+    color:var(--primary);
+}
+
+.btnBox-right:hover{
+    background-color:var(--primary) ;
+    color: gray;
+}
+.text-header-main p{
+    line-height: 25px;
+    font-size: 18px;
+    color: gray;
+}
+
+/*-------------- Menu --------------------*/
+
+.menu-section{
+    text-align: center;
+    background-color: white;
+    margin-top: 50px;
+}
+
+.menu-item-box {
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.menu-img{
+}
+
+.text-img{
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    transition: all 1s;
+
+    color: white;
+    bottom: 0;
+    left: 0;
+    padding:50px;
+    text-align: left;
+    background:linear-gradient(to top , #232323, #4d4d4d,rgba(255, 255, 255, 0.04));
+}
+
+.menu-item-box:hover .text-img{
+    opacity: 1;
+}
+
+.text-img-header{
+    font-size: 22px;
+    font-weight: bold;
+}

@@ -1,0 +1,41 @@
+.slider-bottom{
+    position: relative;
+    height: 80vh;
+}
+
+.slider-bottom-bgImg{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 320px;
+}
+
+.stars-icon img{
+    width: 20px;
+}
+
+
+.btn-prev:hover {
+    background-color: var(--red-icon);
+    border-radius: 50%;
+}
+
+.btn-next:hover{
+    background-color: var(--red-icon);
+    border-radius: 50%;
+}
+
+.item-carousel{
+    padding: 50px 100px;
+}
+
+@media (max-width: 768px) {
+    .slider-bottom{
+        justify-content: center;
+        align-items: center;
+    }
+    .slider-bottom-bgImg{
+        display: none;
+    }
+
+}

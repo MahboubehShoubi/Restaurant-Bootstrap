@@ -1,0 +1,30 @@
+.messageBox{
+    background-color:var(--background-w2) ;
+    padding: 100px 50px;
+}
+
+.messageBox-top h3{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.messageBox-form{
+    margin-top: 30px;
+}
+
+.btn-form{
+    width: fit-content;
+    padding: 5px 40px;
+    font-size: 14px;
+    word-spacing: 2px;
+}
+
+.messageForm_right textarea{
+    height: 75%;
+}
+
+@media (max-width: 768px) {
+    .messageForm_right textarea{
+        height: 25vh;
+    }
+}

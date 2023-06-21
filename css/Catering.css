@@ -1,0 +1,103 @@
+.Catering{
+    padding:150px 50px;
+    background-color: var(--background-w1);
+}
+
+.Catering-top{
+    display: flex;
+    flex-direction: column;
+}
+
+.Catering-top h3{
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+
+.catering-text-header{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.catering-text{
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 1px;
+   word-spacing: 2px;
+    margin-top: 20px;
+}
+
+/*--------- box-center ------*/
+.Catering-Box-center{
+    background-color: white;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 37px 3px rgba(176,172,172,0.75);
+}
+.Catering-box-img{
+    width: 300px;
+}
+
+.Catering-box-text{
+    padding: 40px;
+}
+.Catering-box-text p{
+    word-spacing: 2px;
+    font-size: 15px;
+}
+
+.Catering-box-btn{
+    font-size: 14px;
+    word-spacing: 2px;
+    padding: 5px 30px;
+}
+
+/*--------- Catering-Box-Album --------*/
+
+.Catering-Box-Album{
+    height: max-content;
+    margin-top: 250px;
+}
+
+.Catering-Box-Album img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.Catering-Box-Album img:hover{
+    cursor: pointer;
+}
+
+.Box-Album-right{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 18px;
+    justify-content:center;
+}
+
+
+
+
+/*---------- Media -----------*/
+@media (max-width: 768px) {
+    .Catering{
+        padding: 20px;
+    }
+
+    .Catering-Box-center{
+
+    }
+
+    .Catering-Box-Album{
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        margin-top: 100px;
+        justify-content: center;
+    }
+
+    .Box-Album-right{
+        row-gap: 10px;
+    }
+}

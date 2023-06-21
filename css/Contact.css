@@ -1,0 +1,93 @@
+.Contact{
+    background-color: var(--background-light-blue);
+    position: relative;
+    padding-top: 100px;
+}
+
+.contact-bgImg{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 450px;
+    animation-duration: 2000ms;
+}
+
+.Contact-header{
+    word-spacing: 2px;
+}
+
+.Contact-header p{
+    font-size: 2.5rem;
+    font-weight:bold;
+}
+
+.contact-boxBottom{
+    padding: 0 50px;
+    background: inherit;
+    margin-bottom: 50px;
+}
+
+.contact-item{
+    background-color: white;
+    border-radius: 8px;
+}
+
+.contact-boxLeft img{
+    width: 20px;
+}
+.contact-boxLeft p{
+   font-size: 14px;
+    word-spacing: 1px;
+}
+
+.contact-boxLeft-item{
+    display: flex;
+    column-gap: 8px;
+    width: 80%;
+}
+
+.contact-boxCenter{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.contact-boxRight{
+    position: relative;
+}
+
+.contact-boxRight img{
+    position: absolute;
+    width: 100px;
+    top: 0;
+    right: 0;
+}
+
+.contact-btn{
+    padding: 8px 30px;
+    font-size: 15px;
+}
+
+.contact-boxCenter-textHeader{
+    color: var(--red-icon);
+    font-weight: bold;
+    word-spacing: 2px;
+    margin-bottom: 12px;
+}
+.contact-boxCenter-center{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.contact-boxCenter-center h6 ,
+.contact-boxCenter-center span ,
+.contact-boxCenter-bottom p ,
+.contact-boxCenter-bottom h6
+{
+    font-size: 13px;
+    word-spacing: 2px;
+}
+
+.contact-boxCenter-center{
+margin-bottom: 10px;
+}
