@@ -40,14 +40,118 @@
             </button>
             <div class="collapse navbar-collapse nav-menu col-md-9 justify-content-around" id="nav-menu">
                 <ul class="navbar-nav menu list-unstyled d-flex column-gap-xl-4">
-                    <li class="nav-item"><a class="nav-link">Home</a></li>
-                    <li class="nav-item"><a class="nav-link">Pages</a></li>
+                    <li class="nav-item item">
+                        <a class="nav-link" href="#">Home<img src="Icon/caret-down.svg"></a>
+                        <ul class="submenu">
+                            <li><a class="subItem" href="#">Header Static</a></li>
+                            <li><a class="subItem" href="#">Header Slider</a></li>
+                            <li><a class="subItem" href="#">Youtube Background</a></li>
+                            <li><a class="subItem" href="#">Self Hosted Video</a></li>
+                            <li><a class="subItem" href="#">RTL</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item item">
+                        <a class="nav-link" href="#">Pages<img src="Icon/caret-down.svg"></a>
+                        <ul class="submenu">
+                            <li><a class="subItem" href="#">Menu</a></li>
+                            <li><a class="subItem" href="#">Gallery</a></li>
+                            <li><a class="subItem" href="#">About</a></li>
+                            <li><a class="subItem" href="#">Contact</a></li>
+                        </ul>
+                    </li>
                     <li class="nav-item"><a class="nav-link">Menu</a></li>
-                    <li class="nav-item"><a class="nav-link">Components</a></li>
-                    <li class="nav-item"><a class="nav-link">Utilities</a></li>
-                    <li class="nav-item"><a class="nav-link">Plugins</a></li>
+                    <li class="nav-item item">
+                        <a class="nav-link" href="#">Components<img src="Icon/caret-down.svg"></a>
+                        <ul class="submenu">
+                            <li><a class="subItem" href="#">Alert</a></li>
+                            <li><a class="subItem" href="#">Background</a></li>
+                            <li><a class="subItem" href="#">Badges</a></li>
+                            <li><a class="subItem" href="#">Buttons</a></li>
+                            <li><a class="subItem" href="#">Cards</a></li>
+                            <li><a class="subItem" href="#">Carousel</a></li>
+                            <li><a class="subItem" href="#">Collapse</a></li>
+                            <li><a class="subItem" href="#">Dropdowns</a></li>
+                            <li><a class="subItem" href="#">Forms</a></li>
+                            <li><a class="subItem" href="#">Modals</a></li>
+                            <li><a class="subItem" href="#">Navs</a></li>
+                            <li><a class="subItem" href="#">Navbar</a></li>
+                            <li><a class="subItem" href="#">Page Headers</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item item">
+                        <a class="nav-link" href="#">Utilities<img src="Icon/caret-down.svg"></a>
+                        <ul class="submenu">
+                            <li><a class="subItem" href="#">Borders</a></li>
+                            <li><a class="subItem" href="#">Clearfix</a></li>
+                            <li><a class="subItem" href="#">Close icon</a></li>
+                            <li><a class="subItem" href="#">Colors</a></li>
+                            <li><a class="subItem" href="#">Display</a></li>
+                            <li><a class="subItem" href="#">Flex</a></li>
+                            <li><a class="subItem" href="#">Grid</a></li>
+                            <li><a class="subItem" href="#">Sizing</a></li>
+                            <li><a class="subItem" href="#">Spacing</a></li>
+                            <li><a class="subItem" href="#">visibility</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item item">
+                        <a class="nav-link" href="#" >Plugins<img src="Icon/caret-down.svg"></a>
+                        <ul class="submenu">
+                            <li><a class="subItem"  href="#">Fancytab</a></li>
+                            <li><a class="subItem"  href="#">Flexslider</a></li>
+                            <li><a class="subItem"  href="#">Owl Carousel</a></li>
+                            <li><a class="subItem"  href="#">Fancybox</a></li>
+                        </ul>
+                    </li>
                 </ul>
-                <a href="#" class="mack-service d-inline-block text-decoration-none">MAKE ARESERVATION</a>
+                <button type="button" class="btn mack-service " data-bs-toggle="modal" data-bs-target="#reservationModal">MAKE A RESERVATION</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade opacity-100" id="reservationModal" >
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header position-relative">
+                    <h1 class="modal-title" id="reservationModalLabel">MAKE A RESERVATION</h1>
+                    <img src="image/pngfind.png" class="z-1 position-absolute">
+                    <button type="button" class="btn-close z-2 position-absolute" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="row column-gap-2" >
+                            <input placeholder="time" type="time" class="form-control col" id="reservation-time">
+                            <input type="date" class="form-control col" id="reservation-data">
+                        </div>
+                        <div class="row column-gap-2">
+                            <input type="text" placeholder="Name" class="form-control col" id="reservation-name">
+                            <input type="tel" placeholder="Phone" class="form-control col" id="reservation-tel">
+                        </div>
+                        <div class="row">
+                            <select class="form-select">
+                                <option selected>person</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                        </div>
+                        <div class="row">
+                            <input placeholder="Email" type="email" class="form-control col">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <p>Apparently we had reached a great height in the atmos,
+                        for the sky was a dead black, and the stars had twinkle.
+                        By which lifts the light.</p>
+                    <button type="button" class="btn">SUBMIT</button>
+                </div>
             </div>
         </div>
     </div>

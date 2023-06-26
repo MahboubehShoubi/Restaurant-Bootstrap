@@ -7,7 +7,47 @@
 .menu li a{
     color: #b6b6b6;
     font-size: 14px;
+    cursor: pointer;
 }
+
+.menu li a:hover{
+    color: var(--orenge);
+}
+.item{
+    position: relative;
+}
+.submenu{
+    position: absolute;
+    display: none;
+    left: 0;
+    top: 100%;
+    background-color:white;
+    list-style: none;
+    border-radius: 5px;
+    text-align: left;
+    padding:10px 30px;
+    border: 1px solid #a4a4a4;
+    width: max-content;
+    z-index: 2;
+}
+
+.submenu li{
+    margin-bottom: 5px;
+}
+
+.subItem{
+    text-decoration: none;
+}
+
+.item:hover>.submenu {
+    display:block;
+}
+
+.item img{
+    width: 15px;
+}
+
+/*---------------------------*/
 
 .mack-service{
     text-align: center;
@@ -18,9 +58,55 @@
     width:250px;
     padding: 6px;
 }
+
 .mack-service:hover{
     background-color:var(--primary);
     color:gray;
+}
+
+.modal-title{
+    font-size: 20px;
+    border-left: 4px solid var(--orenge);
+    width: 40%;
+    padding-left: 10px;
+}
+
+.modal-header img{
+    right: 0;
+    width: 40%;
+}
+
+.modal-header button{
+    right: 30px;
+    top: 30px;
+    background-color: var(--orenge);
+}
+
+.modal-body{
+    padding: 20px 50px;
+}
+
+
+.modal-body form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.modal-body form input:focus ,
+.modal-body form select:focus{
+    outline:3px solid var(--orenge);
+}
+
+.modal-footer{
+    background-color: var(--orenge);
+    text-align: justify;
+    padding: 20px 70px;
+}
+
+.modal-footer button{
+    width: 100%;
+    background-color: white;
 }
 
 /*----------------------header----------------------*/
@@ -94,8 +180,6 @@
     position: relative;
 }
 
-.menu-img{
-}
 
 .text-img{
     position: absolute;
